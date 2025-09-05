@@ -10,9 +10,9 @@ def test_rectangle_area_correct_length():
     """
     Тест вычисления площади с целыми положительными числами
     """
-    width = "3"
+    width = "5"
     height = "5"
-    expected_result = 15
+    expected_result = 25
     
     actual_result = rectangle_area(width, height)
     
